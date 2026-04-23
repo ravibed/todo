@@ -1,0 +1,39 @@
+# Nuxt build outputs
+.nuxt
+.output
+.nitro
+.cache
+
+# Node modules
+node_modules
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs
+
+# Editor directories
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Dist
+dist
